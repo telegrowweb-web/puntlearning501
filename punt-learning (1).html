@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>PRT Punt Learning</title>
+<style>
+:root{--bg:#0b0f2a;--panel:#141a44;--gold:#4cc9f0;--text:#f3efe3;--muted:#a9b2d9;--wa:#25d366;--line:#2b3577;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:light){:root:not([data-theme="dark"]){--bg:#0b0f2a}}
+*{box-sizing:border-box}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;min-height:100vh;background:radial-gradient(ellipse at 50% 0%,#2a1a5e 0%,var(--bg) 60%);color:var(--text);font-family:"Trebuchet MS","Segoe UI",system-ui,sans-serif;display:flex;flex-direction:column;align-items:center}
+main{width:100%;max-width:520px;padding:32px 20px;text-align:center;flex:1}
+.badge{display:inline-block;border:1px solid var(--gold);color:var(--gold);border-radius:999px;padding:6px 16px;font-size:14px}
+.sub{color:var(--muted);margin:18px 0 6px;font-size:15px}
+h1{font-family:Impact,"Arial Black",sans-serif;font-size:clamp(44px,13vw,72px);letter-spacing:2px;margin:10px 0 4px;color:var(--gold);line-height:1}
+.official{color:var(--muted);letter-spacing:3px;font-size:13px;text-transform:uppercase}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:22px 18px;margin:28px 0}
+.card h3{margin:0 0 10px;font-size:20px}
+.card p{margin:0;color:var(--muted)}
+.cta{display:inline-block;background:var(--wa);color:#04210f;font-weight:700;text-decoration:none;padding:16px 34px;border-radius:12px;font-size:17px;margin:8px 0 22px}
+.cta:focus-visible,a:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.tag{font-size:16px;margin:0 0 6px}
+.ads{color:var(--muted);font-size:13px}
+.ads a,footer a{color:var(--gold)}
+footer{max-width:520px;padding:20px;text-align:center;color:var(--muted);font-size:12px;border-top:1px solid var(--line);width:100%}
+footer p{margin:0 0 10px}
+footer nav a{margin:0 8px}
+
+/* animation */
+@keyframes rise{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(37,211,102,.55)}70%{box-shadow:0 0 0 16px rgba(37,211,102,0)}100%{box-shadow:0 0 0 0 rgba(37,211,102,0)}}
+@keyframes shine{0%{background-position:-200% 0}100%{background-position:200% 0}}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+.badge{animation:rise .6s both,float 3s ease-in-out 1s infinite}
+.sub{animation:rise .6s .12s both}
+h1{background:linear-gradient(90deg,#4cc9f0 30%,#e0f7ff 50%,#4cc9f0 70%);background-size:200% 100%;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;animation:rise .7s .2s both,shine 3.5s linear 1s infinite}
+.official{animation:rise .6s .32s both}
+.card{animation:rise .6s .44s both}
+.cta{animation:rise .6s .58s both,pulse 2s ease-out 1.4s infinite;transition:transform .15s}
+.cta:hover{transform:scale(1.05)}
+.tag{animation:rise .6s .7s both}
+.ads{animation:rise .6s .8s both}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}h1{-webkit-text-fill-color:var(--gold);background:none}}
+</style>
+</head>
+<body>
+<main>
+  <span class="badge">⭐ Official Platform</span>
+  <p class="sub">Learn Strategies · Trade Smart</p>
+  <h1>PUNT LEARNING</h1>
+  <div class="official">Official Platform</div>
+
+  <section class="card">
+    <h3>Thousands of Subscribers Joined</h3>
+    <p>✅ Learning live opportunities every day</p>
+  </section>
+
+  <a class="cta" href="https://wa.me/YOURNUMBER">WHATSAPP NOW</a>
+
+  <p class="tag">💎 Precision. Power. Passion 🌍</p>
+  <p class="ads">Ads managed by <a href="https://telegram.me/+TRlJl628l-FkMWE9">@nexgroww</a></p>
+</main>
+<footer>
+  <p><strong>Disclaimer:</strong> All trading and game-related activities involve risk. Provides information for educational and entertainment purposes only. No guaranteed profits. Trade responsibly.</p>
+  <nav><a href="#">Privacy Policy</a><a href="https://wa.me/YOURNUMBER">Contact Us</a></nav>
+</footer>
+</body>
+</html>
